@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(151deg, #000000 19%, #0a4637 100%);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 20vh;
+}
+
+img {
+    border-radius: 80%;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: 100px;
+    max-width: 100px;
+}
+    
+.profile {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;   
+    margin: 0;
+}
+
+a.profile:hover{
+    color: #000;
+}
+
+.name{
+    padding: 30 30 7 30px;
+}
+
+.motto{
+    padding: 7 30 30 30px;
+    font-weight: normal;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-width: 2px;
+    width: 290px;
+    max-width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    transition: color 0.5s;
+}
+
+a.links:hover {
+    color: #000;
+    background: #fff;
+}
+
+.fa_custom {
+    color: #ffffff;
+    margin-top: 40px;
+    text-align: center; 
+    width: 100%; 
+}
+
+a i:hover{
+    color: #000000;
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    clear: both;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
